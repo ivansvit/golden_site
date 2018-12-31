@@ -1,0 +1,86 @@
+@font-face {
+	font-family: Roboto-Light;
+	src: local("Roboto-Light"),
+		 url(Roboto-Light.ttf);
+	font-weight: 400;
+}
+
+.container {
+	width: 931px;
+	margin: 0 auto;
+}
+
+#header {
+	position: absolute;
+	padding: 20px, 0px;
+	top: 73px;
+	width: 100%; 
+}
+
+.logo {
+	float: left;
+}
+
+.nav {
+	float: right;
+	padding: 6px;
+}
+
+.nav li {
+	float: left;
+	margin-right: 42px;
+}
+
+.nav li:last-child {margin-right: 0px;}
+
+.nav a {	
+	color: #ffffff;
+	text-transform: uppercase;
+	font: 14px;
+	font-family: Roboto-Light, sans-serif;
+	text-decoration-line: none;
+}
+
+.nav a:hover {
+	color: #fed136;
+}
+
+#home {
+	height: 700px;
+	padding-top: 275px;
+	text-align: center;
+	color: #ffffff;
+	background: #222 url(../img/home_bg.jpg) no-repeat center bottom;
+	background-size: cover;
+}
+
+#home h3 {
+	font: 40px Roboto-Light, sans-serif;
+	margin-bottom: 45px;
+	margin-top: 190px;
+}
+
+#home h1 {
+	font: 75px Roboto-Light, sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 55px;
+}
+
+.btn {
+	display: inline-block;
+	padding: 20px 30px;
+	font: 24px bold Roboto-Light, sans-serif;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 24px;
+	background-color: #fed136;
+	cursor: pointer;
+	border-radius: 6px;
+}
+
+.btn:hover {
+	background-color: #fed100;
+	color: #6f6f70;
+
+}
+
